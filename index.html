@@ -3,7 +3,12 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./google.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheethref" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link  rel = "stylesheet" href = "style.css">
+   
     <title>Google</title>
 </head>
 <body>
@@ -15,12 +20,15 @@
           <li class="sign_in"><a href="https://accounts.google.com/ServiceLogin?hl=en&passive=true&continue=https://www.google.com/">Sign in</a></li>
         </ul>
       </nav>
-    
+    <main>
       <section class="cntr_pg">
         <img class="logo" src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" alt="Google logo" />
         <img class="mic" src="https://upload.wikimedia.org/wikipedia/commons/2/22/Google_microphone_logo.png" alt="" />
-        <form action="#" method="#" name="searchquery">
+        <form action="/search" method="GET">
+          <i class="fa fa-search" style="color:#9AA0A6"></i>
           <input type="text" name="searchfield" class="search_bar"></input>
+        </form>
+      
           <div class="search_buttons">
             <input class="submit_buttons" type="submit" value="Google Search" name="submit">
             <input class="submit_buttons" type="submit" value="I'm Feeling Lucky" name="feelinglucky"></input>
@@ -28,23 +36,25 @@
                 <p>Google offered in:
                 <a href="#">العربية</a></p>
             </div>
-          </div>
-        </form>
+        
+        
       </section>
-    
+    </main>
       <footer>
-        <ul class="l_ftr">
-          <li><a href="https://www.google.com/intl/en_ps/ads/?subid=ww-ww-et-g-awa-a-g_hpafoot1_1!o2&utm_source=google.com&utm_medium=referral&utm_campaign=google_hpafooter&fg=1">Advertising</a></li>
-          <li><a href="https://www.google.com/services/?subid=ww-ww-et-g-awa-a-g_hpbfoot1_1!o2&utm_source=google.com&utm_medium=referral&utm_campaign=google_hpbfooter&fg=1">Business</a></li>
-          <li><a href="https://about.google/?utm_source=google-PS&utm_medium=referral&utm_campaign=hp-footer&fg=1">About</a></li>
-          <li><a href="https://google.com/search/howsearchworks/?fg=1">How Search Works</a></li>
+       <div class="t-ftr">
+          <p>Palestine</p>
+      </div>
+        <div>
+        <ul>
+          <li style="float: left;"><a href="https://www.google.com/intl/en_ps/ads/?subid=ww-ww-et-g-awa-a-g_hpafoot1_1!o2&utm_source=google.com&utm_medium=referral&utm_campaign=google_hpafooter&fg=1">Advertising</a></li>
+          <li style="float: left;"><a href="https://www.google.com/services/?subid=ww-ww-et-g-awa-a-g_hpbfoot1_1!o2&utm_source=google.com&utm_medium=referral&utm_campaign=google_hpbfooter&fg=1">Business</a></li>
+          <li style="float: left;"><a href="https://about.google/?utm_source=google-PS&utm_medium=referral&utm_campaign=hp-footer&fg=1">About</a></li>
+          <li style="float: left;"><a href="https://google.com/search/howsearchworks/?fg=1">How Search Works</a></li>
+          <li style="float: right;"><a href="https://policies.google.com/privacy?fg=1">Privacy</a></li>
+          <li style="float: right;"><a href="https://policies.google.com/terms?fg=1">Terms</a></li>
+          <li style="float: right;"><a href="https://www.google.com/preferences?hl=en">Settings</a></li>
         </ul>
-    
-        <ul class="r_ftr">
-          <li><a href="https://policies.google.com/privacy?fg=1">Privacy</a></li>
-          <li><a href="https://policies.google.com/terms?fg=1">Terms</a></li>
-          <li><a href="https://www.google.com/preferences?hl=en">Settings</a></li>
-        </ul>
+      </div>
       </footer>
     </nav>
 </body>
